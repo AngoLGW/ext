@@ -3,7 +3,7 @@
   "displayName": "ext open source",
   "description": "ext test",
   "publisher": "ango",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.66.0"
   },
@@ -14,6 +14,11 @@
     "onCommand:ext.openSource"
   ],
   "main": "./dist/extension.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AngoLGW/ext.git"
+  },
+  "homepage": "https://github.com/AngoLGW/ext",
   "contributes": {
     "commands": [
       {
